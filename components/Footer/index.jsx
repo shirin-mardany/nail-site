@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function LOgin() {
+export default function Footer() {
   return (
     <div>
-      login
+      Footer
     </div>
   )
 }

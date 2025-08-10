@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function LOgin() {
+export default function Upload() {
   return (
     <div>
-      login
+      upload page
     </div>
   )
 }
