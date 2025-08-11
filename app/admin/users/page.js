@@ -1,12 +1,9 @@
-
-
 import React from 'react'
 
-export default function Home() {
+export default function Users() {
   return (
     <div>
-      home page
-     
+      users page
     </div>
   )
 }

@@ -1,12 +1,9 @@
-
-
 import React from 'react'
 
-export default function Home() {
+export default function AdminSidebar() {
   return (
     <div>
-      home page
-     
+      
     </div>
   )
 }

@@ -1,12 +1,9 @@
-
-
 import React from 'react'
 
-export default function Home() {
+export default function AdminBody() {
   return (
     <div>
-      home page
-     
+Body aside      
     </div>
   )
 }

@@ -1,12 +1,9 @@
-
-
 import React from 'react'
 
-export default function Home() {
+export default function Login() {
   return (
     <div>
-      home page
-     
+      login page
     </div>
   )
 }
