@@ -1,17 +1,8 @@
-// import { Geist, Geist_Mono } from "next/font/google";
+import { FooterApp } from "@/components/layout/Footer";
 import "./globals.css";
-import Footer from "@/components/layout/Footer";
+
 import { Nav } from "@/components/layout/Navbar";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata = {
   title: "Nail App",
@@ -20,14 +11,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa">
+    <html>
       <body>
-        <header >
+        <header>
           <Nav />
         </header>
-        <main >{children}</main>
+        {children}
         <footer>
-          <Footer />
+          <FooterApp />
         </footer>
       </body>
     </html>

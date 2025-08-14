@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Datepicker } from "flowbite-react";
 export default function Times() {
-  return <div>times</div>;
+  return <Datepicker inline />;
 }

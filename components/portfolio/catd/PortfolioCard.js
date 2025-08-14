@@ -13,6 +13,7 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { Card } from "flowbite-react";
 // ________________________________________
 export function PortfolioCard() {
+  // arg = img - title - price -
   return (
     <div className=" bg-amber-300 size-full">
       <Swiper

@@ -6,10 +6,18 @@
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
-
+/* ------------- */
+@plugin "daisyui";
 :root {
+  /* colors >> */
   --light-green-1: #7adaa5;
-  --navBG: #c7c257;
+  --green-C1CFA1: #C1CFA1;
+  --green-689B8A: #689B8A;
+  --navBG: #c5bf48;
+--blue-280A3E: #0a293e;
+--blue-B3C8CF:#a0b6bd;
+--pink-E7CCCC: #e7cccc;
+  /* size >> */
   --navbar-height: 72px;
 }
 
