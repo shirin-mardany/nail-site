@@ -1,24 +1,23 @@
 @import "tailwindcss";
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/* ------------- */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
 :root {
---light-green-1:#7ADAA5;
-  --navBG:#c7c257;
+  --light-green-1: #7adaa5;
+  --navBG: #c7c257;
+  --navbar-height: 72px;
 }
 
-
-
-
-/* defult btn >> */
-/* .defult-btn{
-  @apply relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 focus:ring-4 focus:outline-none focus:ring-red-100
-} */
- 
-/* .btn-default {
-  @apply relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 focus:ring-4 focus:outline-none focus:ring-red-100;
+main {
+  width: 100%;
+  min-height: 100vh;
 }
-
-.btn-default > span {
-  @apply relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-transparent;
-} */
+.main-box {
+  width: 100%;
+  height: 50vh;
+}

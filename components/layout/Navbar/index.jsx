@@ -31,7 +31,7 @@ export function Nav() {
         alt="Picture of the author"
         width={100}
         height={52}
-        priority
+        // priority
       />
       {/* </NavbarBrand> */}
       {/* profile img  and dropdown ------------------- */}

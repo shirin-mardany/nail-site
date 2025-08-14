@@ -1,6 +1,8 @@
 
 .nav{
   background-color: var(--navBG);
+  position:sticky;
+  height: 72px;
 }
 .DropdowBnox{
   background-color: var(--light-green-1);

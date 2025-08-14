@@ -1,16 +1,21 @@
-// flowbite >>
+"use client";
+import HeaderHome from "@/components/layout/Header";
+import QuestionBox from "@/components/layout/QuestionBox";
+import SliderPortfolio from "@/components/layout/SliderPortfolio";
+import React from "react";
+// next component >>
+// import Image from "next/image";
 
 
-import Head from 'next/head'
-import React from 'react'
 
+// __________________________________________________
 export default function Home() {
   return (
-    <div>
+    <>
       {/* header ----------------------------------------------- */}
-      <Head>
-        <title>My Shop</title>
-      </Head>
-    </div>
+      <HeaderHome />
+      <SliderPortfolio />
+      <QuestionBox />
+    </>
   );
 }
